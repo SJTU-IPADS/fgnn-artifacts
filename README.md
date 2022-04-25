@@ -2,6 +2,8 @@
 
 This repository contains scripts and instructions for reproducing the experiments in our EuroSys '22 paper "GNNLab: A Factored System For Sample-based GNN Training Over GPUs".
 
+This repository is just an AE snapshot of our work on EuroSys'22, and our maintenance work will be on the [GNNLab repository](https://github.com/SJTU-IPADS/gnnlab).
+
 GNNLab is a factored system for sample-based GNN training over GPUs. GNNLab dedicates each GPU to the task of graph sampling or model training. It accelerates both tasks by eliminating GPU memory contention. Furthermore, GNNLab embodies a new pre-sampling based caching policy that takes both sampling algorithms and GNN datasets into account, showing an efficient and robust caching performance.
 
 ## Terminology
